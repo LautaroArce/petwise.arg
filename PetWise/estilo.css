@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0e1117;
+  color: #f1f1f1;
+  padding-top: 80px; /* espacio para navbar fija */
+}
+
+nav {
+  background-color: #1f2937;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1030;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+.nav-link {
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #38bdf8;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.hero {
+  background: linear-gradient(to right, #1e3a8a, #2563eb);
+  color: white;
+  text-align: center;
+  padding: 10rem 2rem 6rem;
+}
+
+section {
+  max-width: 1000px;
+  margin: 3rem auto;
+  background-color: #1f2937;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.btn-custom {
+  background-color: #38bdf8;
+  color: #0e1117;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #0ea5e9;
+}
+
+.card-dark {
+  background-color: #2c2f3a;
+  border: none;
+  color: white;
+}
+
+.highlight {
+  color: #0ea5e9;
+  font-weight: 600;
+}
+
+#app-demo img {
+  transition: transform 0.3s ease;
+}
+
+#app-demo img:hover {
+  transform: scale(1.03);
+}
+
+
+
+
+.tarjeta-descarga {
+  background-color: #1f2937;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  color: #f1f1f1;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-descarga:hover {
+  transform: translateY(-5px);
+}
+
+.logo-sistema {
+  width: 64px;
+  height: auto;
+}
+
+.btn-descarga {
+  background-color: #38bdf8;
+  color: #0e1117;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-descarga:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.03);
+}
